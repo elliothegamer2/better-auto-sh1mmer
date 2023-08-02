@@ -9,6 +9,4 @@ clear
 
 echo "Downloading..."
 
-if [[ $1 == "octopus" ]]; then
-    wget "https://dl.osu.bio/api/raw/?path=/octopus.zip"
-fi
+echo "https://dl.osu.bio/api/raw/?path=/" + $1
