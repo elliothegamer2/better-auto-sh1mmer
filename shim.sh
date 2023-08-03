@@ -28,23 +28,4 @@ clear
 unzip index.html?path=%2F$1
 cd
 
-# halcyon or sh1mmer
-
-if [[ $path == "~/auto-sh1mmer-better/hana.bin" || $path == "~/auto-sh1mmer-better/coral.bin" ]];
-then
-    echo "Building legacy"
-    echo "PLUG YOU USB DRIVE IN BEFORE THIS START"
-    echo "10 seconds"
-    sleep 10
-
-    git clone https://github.com/CoolElectronics/sh1mmer
-    cd sh1mmer/wax
-    sudo 'bash wax_legacy.sh'
-
-else 
-        git clone https://github.com/CoolElectronics/sh1mmer
-        cd sh1mmer/wax
-        wget https://dl.sh1mmer.me/build-tools/chromebrew/chromebrew.tar.gz
-        sudo bash wax.sh $path
-
-fi
+echo "now run the build.sh file"
