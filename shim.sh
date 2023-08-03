@@ -42,12 +42,9 @@ then
     sudo 'bash wax_legacy.sh'
 
 else 
-      echo "Building shim"
         git clone https://github.com/CoolElectronics/sh1mmer
         cd sh1mmer/wax
         wget https://dl.sh1mmer.me/build-tools/chromebrew/chromebrew.tar.gz
-        sudo bash wax.sh $file
+        sudo bash wax.sh $path
 
 fi
-
-echo "Your shim has finished building (maybe)"
