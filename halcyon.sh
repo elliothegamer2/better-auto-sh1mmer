@@ -23,7 +23,6 @@ sleep 1
 echo -ne '1 \r'
 echo -ne '\n'
 
-sleep 10
 buil="0"
 clear
 
