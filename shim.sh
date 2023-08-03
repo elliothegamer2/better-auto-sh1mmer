@@ -1,5 +1,3 @@
-git clone "github.com/elliothegamer2/auto-sh1mmer-better"
-cd auto-sh1mmer-better
 sudo apt-get unzip
 
 echo "Download RMA shi"
