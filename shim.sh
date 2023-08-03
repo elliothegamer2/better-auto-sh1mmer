@@ -4,9 +4,12 @@ echo "Are you sure"
 echo "(CTRL+C to cancel)"
 echo "8 seconds to choose"
 
-sleep 1
 clear
 
 echo "Downloading..."
 
-echo "https://dl.osu.bio/api/raw/?path=/"$1".bin"
+file="https://dl.osu.bio/api/raw/?path=/"$1".bin"
+
+wget $file
+
+echo "Finished"
