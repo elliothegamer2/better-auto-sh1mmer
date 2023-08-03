@@ -21,4 +21,4 @@ use linux if it fails during the building process not my problem
   ```bash
   ./shim.sh octopus
   ```
-## Build the shim (May not work its still being worked on)
+## Build the shim (Not Done Yet)
