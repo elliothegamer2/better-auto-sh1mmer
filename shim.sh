@@ -9,4 +9,4 @@ clear
 
 echo "Downloading..."
 
-echo "https://dl.osu.bio/api/raw/?path=/"$1
+echo "https://dl.osu.bio/api/raw/?path=/"$1".bin"
