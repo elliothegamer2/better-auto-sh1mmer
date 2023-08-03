@@ -210,7 +210,4 @@ if [[ $buil = "1" ]]; then
 elif [[ $buil == "0" ]]; then
     echo "Unsupported Board or Not Found"
 fi
-
-clear
-
 echo "Your board has been patched it should be at ~/auto-sh1mmer-better/"$1".bin"
