@@ -8,9 +8,14 @@ cd auto-sh1mmer-better
 ```
 
 ```bash
-  chmod a+x shim.sh
+chmod a+x shim.sh
 ```
 
 ```bash
-  shim.sh <board>
+./shim.sh <board>
+```
+so for an octopus board would look like this
+
+```bash
+./shim.sh octopus
 ```
