@@ -129,28 +129,28 @@ if [[ $buil = "1" ]]; then
         git clone https://github.com/MercuryWorkshop/RecoMod
         cd RecoMod
         chmod +x recomod.sh
-        sudo ./recomod.sh -i ~/auto-sh1mmer-better/octopus107.bin --halcyon --rw_legacy
+        sudo ./recomod.sh -i ~/better-auto-sh1mmer/octopus107.bin --halcyon --rw_legacy
     fi
 
     if [[ $1 == "dedede" ]]; then
         git clone https://github.com/MercuryWorkshop/RecoMod
         cd RecoMod
         chmod +x recomod.sh
-        sudo ./recomod.sh -i ~/auto-sh1mmer-better/dedede107.bin --halcyon --rw_legacy
+        sudo ./recomod.sh -i ~/better-auto-sh1mmer/dedede107.bin --halcyon --rw_legacy
     fi
 
     if [[ $1 == "strongbad" ]]; then
          git clone https://github.com/MercuryWorkshop/RecoMod
         cd RecoMod
         chmod +x recomod.sh
-        sudo ./recomod.sh -i ~/auto-sh1mmer-better/stongbad107.bin --halcyon --rw_legacy
+        sudo ./recomod.sh -i ~/better-auto-sh1mmer/stongbad107.bin --halcyon --rw_legacy
     fi
 
     if [[ $1 == "byra" ]]; then
         git clone https://github.com/MercuryWorkshop/RecoMod
         cd RecoMod
         chmod +x recomod.sh
-        sudo ./recomod.sh -i ~/auto-sh1mmer-better/byra107.bin --halcyon --rw_legacy
+        sudo ./recomod.sh -i ~/better-auto-sh1mmer/byra107.bin --halcyon --rw_legacy
     fi
 
     if [[ $1 == "coral" ]]; then
@@ -164,68 +164,68 @@ if [[ $buil = "1" ]]; then
         git clone https://github.com/MercuryWorkshop/RecoMod
         cd RecoMod
         chmod +x recomod.sh
-        sudo ./recomod.sh -i ~/auto-sh1mmer-better/grunt107.bin --halcyon --rw_legacy
+        sudo ./recomod.sh -i ~/better-auto-sh1mmer/grunt107.bin --halcyon --rw_legacy
     fi
 
     if [[ $1 == "hana" ]]; then
          git clone https://github.com/MercuryWorkshop/RecoMod
         cd RecoMod
         chmod +x recomod.sh
-        sudo ./recomod.sh -i ~/auto-sh1mmer-better/hana107.bin --halcyon --rw_legacy
+        sudo ./recomod.sh -i ~/better-auto-sh1mmer/hana107.bin --halcyon --rw_legacy
     fi
 
     if [[ $1 == "hatch" ]]; then
         git clone https://github.com/MercuryWorkshop/RecoMod
         cd RecoMod
         chmod +x recomod.sh
-        sudo ./recomod.sh -i ~/auto-sh1mmer-better/hatch107.bin --halcyon --rw_legacy
+        sudo ./recomod.sh -i ~/better-auto-sh1mmer/hatch107.bin --halcyon --rw_legacy
     fi
 
     if [[ $1 == "jacuzzi" ]]; then
          git clone https://github.com/MercuryWorkshop/RecoMod
         cd RecoMod
         chmod +x recomod.sh
-        sudo ./recomod.sh -i ~/auto-sh1mmer-better/jacuzzi.bin --halcyon --rw_legacy
+        sudo ./recomod.sh -i ~/better-auto-sh1mmer/jacuzzi.bin --halcyon --rw_legacy
     fi
 
     if [[ $1 == "sentry" ]]; then
          git clone https://github.com/MercuryWorkshop/RecoMod
         cd RecoMod
         chmod +x recomod.sh
-        sudo ./recomod.sh -i ~/auto-sh1mmer-better/sentry107.bin --halcyon --rw_legacy
+        sudo ./recomod.sh -i ~/better-auto-sh1mmer/sentry107.bin --halcyon --rw_legacy
     fi
 
     if [[ $1 == "kukui" ]]; then
          git clone https://github.com/MercuryWorkshop/RecoMod
         cd RecoMod
         chmod +x recomod.sh
-        sudo ./recomod.sh -i ~/auto-sh1mmer-better/kukui107.bin --halcyon --rw_legacy
+        sudo ./recomod.sh -i ~/better-auto-sh1mmer/kukui107.bin --halcyon --rw_legacy
     fi
 
     if [[ $1 == "nami" ]]; then
          git clone https://github.com/MercuryWorkshop/RecoMod
         cd RecoMod
         chmod +x recomod.sh
-        sudo ./recomod.sh -i ~/auto-sh1mmer-better/nami107.bin --halcyon --rw_legacy
+        sudo ./recomod.sh -i ~/better-auto-sh1mmer/nami107.bin --halcyon --rw_legacy
     fi
 
     if [[ $1 == "volteer" ]]; then
         git clone https://github.com/MercuryWorkshop/RecoMod
         cd RecoMod
         chmod +x recomod.sh
-        sudo ./recomod.sh -i ~/auto-sh1mmer-better/volteer107.bin --halcyon --rw_legacy
+        sudo ./recomod.sh -i ~/better-auto-sh1mmer/volteer107.bin --halcyon --rw_legacy
     fi
 
     if [[ $1 == "zork" ]]; then
        git clone https://github.com/MercuryWorkshop/RecoMod
         cd RecoMod
         chmod +x recomod.sh
-        sudo ./recomod.sh -i ~/auto-sh1mmer-better/zork107.bin --halcyon --rw_legacy
+        sudo ./recomod.sh -i ~/better-auto-sh1mmer/zork107.bin --halcyon --rw_legacy
     fi
 
 elif [[ $buil == "0" ]]; then
     echo "Unsupported Board or Not Found"
 fi
 
-echo "Your board has been patched it should be at ~/auto-sh1mmer-better/"$1".bin"
+echo "Your board has been patched it should be at ~/better-auto-sh1mmer/"$1".bin"
 echo "if the text above is red that means an error happened"
