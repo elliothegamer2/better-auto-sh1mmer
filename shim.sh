@@ -26,11 +26,3 @@ sleep 1
 clear
 
 unzip index.html?path=%2F$1
-    path=$path" --dev"
-    echo "Injecting"
-    sleep 1
-    git clone https://github.com/CoolElectronics/sh1mmer
-    cd sh1mmer/wax
-    wget https://dl.sh1mmer.me/build-tools/chromebrew/chromebrew-dev.tar.gz
-    sudo bash wax.sh $path
-echo "You shim has finished building (i hope) it should be at ~/auto-sh1mmer-better/"$1
