@@ -4,9 +4,9 @@ echo "Are you sure"
 echo "(CTRL+C to cancel)"
 echo "8 seconds to choose"
 
-sleep 8
+sleep 1
 clear
 
 echo "Downloading..."
 
-echo "https://dl.osu.bio/api/raw/?path=/" + $1
+echo "https://dl.osu.bio/api/raw/?path=/"$1
