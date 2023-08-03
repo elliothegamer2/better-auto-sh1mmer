@@ -17,7 +17,7 @@ echo "Downloading..."
 
 file="https://dl.osu.bio/api/raw/?path=/"$1".zip"
 
-path="~/auto-sh1mmer-better/"$1
+path="~/auto-sh1mmer-better/"$1".bin"
 
 wget $file
 
