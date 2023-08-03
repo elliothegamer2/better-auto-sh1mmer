@@ -5,8 +5,8 @@ use linux if it fails during the building process not my problem
 ## Auto Download a shim 
   Clone and cd into the repo
   ```bash
-  git clone https://github.com/elliothegamer2/auto-sh1mmer-better
-  cd auto-sh1mmer-better
+  git clone https://github.com/elliothegamer2/better-auto-sh1mmer
+  cd better-auto-sh1mmer
   ```
   grant the file perms
   ```bash
