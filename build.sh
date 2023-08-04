@@ -1,4 +1,4 @@
-file="~/better-auto-sh1mmer/"$1"107.bin"
+file="~/better-auto-sh1mmer/"$1".bin"
 echo "Building: " $file
 
 
