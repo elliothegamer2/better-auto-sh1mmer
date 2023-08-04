@@ -1,6 +1,6 @@
 file="~/better-auto-sh1mmer/"$1"107.bin"
 echo "Building: " $file
-ask
+
 
 ask() {
     read -p "Dev?[y/n]" dev
@@ -20,3 +20,4 @@ ask() {
         ask
     fi
 }
+ask
