@@ -59,7 +59,7 @@ use linux if it fails during the building process not my problem
 
   grant the file perms
   ```bash
-  chmod a+x meun.sh
+  chmod a+x menu.sh
   ```
 
   open the menu
