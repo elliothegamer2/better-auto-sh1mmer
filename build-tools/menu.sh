@@ -37,7 +37,7 @@ MenuInd() {
     echo -e "                                                              |       {Made By Wave Demure}       |"
     echo -e "                                                              |                                   |"
     echo -e "                                                              +===================================+"
-    echo "                                                                           The Board is"$1
+    echo "                                                                           The Board is "$1
 }   
 PromptMenu() {
      echo -e "                                                                          \033[1;96mEdit Options"
