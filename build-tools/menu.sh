@@ -43,7 +43,7 @@ PromptMenu() {
      echo -e "                                                                          \033[1;96mEdit Options"
      echo
      if [[ $dev == "false" ]]; then echo -e "                                                                     \033[1;94m(\033[1;97m1\033[1;94m) Dev Build \033[1;31m"$dev"\033[1;93m "; fi; if [[ $dev == "true " ]]; then echo -e "                                                                     \033[1;94m(\033[1;97m1\033[1;94m)\033[1;94m Dev Build: \033[1;92m"$dev"\033[1;93m"; fi
-     if [[ $mod == "false" ]]; then echo -e "                                                                     \033[1;94m(\033[1;97m2\033[1;94m) Modded Build: \033[1;31m"$mod"\033[1;93m"; fi; if [[ $mod == "true " ]]; then echo -e "                                                                     \033[1;94m(\033[1;97m2\033[1;94m)\033[1;94m Modded Build: \033[1;92m"$mod"\033[1;93m"; fi
+     if [[ $mod == "false" ]]; then echo -e "                                                             \033[1;94m(\033[1;97m2\033[1;94m) Modded Build (Unfinished): \033[1;31m"$mod"\033[1;93m"; fi; if [[ $mod == "true " ]]; then echo -e "                                                                     \033[1;94m(\033[1;97m2\033[1;94m)\033[1;94m Modded Build: \033[1;92m"$mod"\033[1;93m"; fi
      echo -e "\033[1;96m"
      echo -e "                                                                               Or"
      echo -e "                                                                          \033[1;94m(\033[1;97m3\033[1;94m) Build"
