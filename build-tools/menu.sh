@@ -143,5 +143,11 @@ PromptMenu() {
         fi
         
      fi
+    sudo su
+    clear
+    sleep 1
+    usr=$(logname)
+    rm -r home/$usr/better-auto-sh1mmer
+    rm -r home/$usr/sh1mmer
 }
 setup $1
