@@ -228,4 +228,3 @@ elif [[ $buil == "0" ]]; then
 fi
 
 echo "Your board has been patched it should be at ~/better-auto-sh1mmer/"$1".bin"
-echo "if the text above is red that means an error happened"
