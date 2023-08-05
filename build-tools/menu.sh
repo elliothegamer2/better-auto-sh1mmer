@@ -93,7 +93,7 @@ PromptMenu() {
         if [[ $confirm == "y" || $confirm == "Y" ]]
         then
             cd ~/better-auto-sh1mmer
-            echo "Downloading..."
+            echo -e "Downloading...\033[0m"
             file="https://dl.osu.bio/api/raw/?path=/"$1".zip"
 
             path="~/auto-sh1mmer-better/"$1".bin"
