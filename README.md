@@ -24,7 +24,7 @@ use linux if it fails during the building process not my problem
 ## Build the shim (Not Done Yet)
 
 
-## but halcyon should be
+## E-Halcyon (RecoMod)
   Clone and cd into the repo
   ```bash
   git clone https://github.com/elliothegamer2/better-auto-sh1mmer
