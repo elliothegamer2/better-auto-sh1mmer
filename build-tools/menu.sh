@@ -4,8 +4,8 @@ sudo apt-get unzip
 
 setup() {
     clear
-    MenuInd
-    PromptMenu
+    MenuInd $1
+    PromptMenu $1
 }
 clear
 dev="false"
@@ -143,4 +143,4 @@ PromptMenu() {
         
      fi
 }
-setup
+setup $1
