@@ -50,3 +50,24 @@ use linux if it fails during the building process not my problem
 ### you can try and find one and build with the offical repo or [E-Halcyon Website](https://fog.gay)
 
 # Shim builder menu
+
+ Clone and cd into the repo
+  ```bash
+  git clone https://github.com/elliothegamer2/better-auto-sh1mmer
+  cd better-auto-sh1mmer/build-tools
+  ```
+
+  grant the file perms
+  ```bash
+  chmod a+x meun.sh
+  ```
+
+  open the menu
+  ```bash
+    ./menu.sh <board>
+  ```
+
+  to open the menu for an octopus board
+  ```bash
+    ./menu.sh octopus
+  ```
