@@ -86,7 +86,7 @@ PromptMenu() {
      then
         clear
         echo "Download shim"
-        echo "The board you are download is: " $1
+        echo "The board you are download is: "$1
         echo "Are you sure"
         read -p "[Y/N]" confirm
         if [[ $confirm == "y" || $confirm == "Y" ]]
