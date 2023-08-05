@@ -12,7 +12,8 @@ build() {
         echo "Download shim"
         echo "The board you are download is: "$1
         echo "Are you sure"
-        read -p "[Y/N]" confirm
+        echo "R to reload"
+        read -p "[Y/N/R]" confirm
         if [[ $confirm == "y" || $confirm == "Y" ]]
         then
             cd ~/better-auto-sh1mmer
@@ -63,6 +64,10 @@ build() {
             fi
             cd ~/better-auto-sh1mmer/build-tools
             echo "Your Shim should be at " $path
+        fi
+        if [[ $confirm == "R" || $confirm == "r" ]]
+        then
+            build
         fi
 }
 clear
@@ -142,7 +147,7 @@ PromptMenu() {
      fi
       if [[ $data == 3 ]]
      then
-
+        build
     fi
     sudo su
     clear
