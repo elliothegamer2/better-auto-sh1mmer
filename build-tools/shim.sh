@@ -6,7 +6,7 @@ sudo apt install cgpt
 sudo apt-get unzip
 
 clear
-echo "Download RMA shi"
+echo "Download shim"
 echo "The board you are download is:" $1
 echo "Are you sure"
 echo "(CTRL+C to cancel)"
