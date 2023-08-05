@@ -140,6 +140,7 @@ PromptMenu() {
             fi
             cd ~/better-auto-sh1mmer/build-tools
             echo "Your Shim should be at " $path
+            echo "Use a tool such as balenaEtcher or Chromebook Recovery Util to flash it"
         fi
     fi
 }
