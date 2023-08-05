@@ -1,3 +1,4 @@
+# congrates you looked at the source code you may still be a skid
 echo "Installing required things"
 
 

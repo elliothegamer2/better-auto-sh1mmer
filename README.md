@@ -6,7 +6,7 @@ use linux if it fails during the building process not my problem
   Clone and cd into the repo
   ```bash
   git clone https://github.com/elliothegamer2/better-auto-sh1mmer
-  cd better-auto-sh1mmer
+  cd better-auto-sh1mmer/build-tools
   ```
   grant the file perms
   ```bash
@@ -28,7 +28,7 @@ use linux if it fails during the building process not my problem
   Clone and cd into the repo
   ```bash
   git clone https://github.com/elliothegamer2/better-auto-sh1mmer
-  cd better-auto-sh1mmer
+  cd better-auto-sh1mmer/build-tools
   ```
 
   grant the file perms
@@ -47,3 +47,6 @@ use linux if it fails during the building process not my problem
   ./halcyon.sh octopus
   ```
 ### if it says Unsoppurteed Version that means there is no 107 recovery image for that board on chrome100.dev
+### you can try and find one and build with the offical repo or [E-Halcyon Website](https://fog.gay)
+
+# Shim builder menu

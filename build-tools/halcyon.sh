@@ -1,3 +1,4 @@
+# congrates you looked at the source code you may still be a skid
 sudo apt install unzip
 clear
 echo "The board you are trying to download is:" $1
