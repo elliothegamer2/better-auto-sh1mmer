@@ -110,13 +110,13 @@ PromptMenu() {
                 if [[ $dev == "true " ]]
                 then 
                     git clone https://github.com/elliothegamer2/sh1mmer-mod
-                    cd sh1mmer/wax
+                    cd sh1mmer-mod/wax
                     wget https://dl.sh1mmer.me/build-tools/chromebrew/chromebrew-dev.tar.gz
                     sudo bash wax.sh ~/better-auto-sh1mmer/$1.bin --dev
                 elif [[ $dev == "false" ]]
                 then
                     git clone https://github.com/elliothegamer2/sh1mmer-mod
-                    cd sh1mmer/wax
+                    cd sh1mmer-mod/wax
                     wget https://dl.sh1mmer.me/build-tools/chromebrew/chromebrew.tar.gz
                     sudo bash wax.sh ~/better-auto-sh1mmer/$1.bin
                 fi
