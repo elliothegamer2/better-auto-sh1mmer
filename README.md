@@ -1,4 +1,4 @@
-# auto-sh1mmer-better
+# better-auto-sh1mmer
 
 use linux if it fails during the building process not my problem
 
