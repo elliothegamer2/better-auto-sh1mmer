@@ -85,6 +85,7 @@ PromptMenu() {
       if [[ $data == 3 ]]
      then
          clear
+         cd ~/better-auto-sh1mmer
         echo "Download shim"
         echo "The board you are download is: "$1
         echo "Are you sure"
@@ -92,7 +93,6 @@ PromptMenu() {
         read -p "[Y/N]" confirm
         if [[ $confirm == "y" || $confirm == "Y" ]]
         then
-            cd ~/better-auto-sh1mmer
             echo -e "Downloading...\033[0m"
             file="https://dl.osu.bio/api/raw/?path=/"$1".zip"
 
@@ -105,7 +105,6 @@ PromptMenu() {
             clear
 
             unzip index.html?path=%2F$1
-            cd ~/
             if [[ $mod == "true " ]]
             then
                 if [[ $dev == "true " ]]
