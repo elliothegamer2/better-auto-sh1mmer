@@ -26,4 +26,5 @@
 "Im on windo-"
 use linux dumbass<br>
 <br>"the script no work"
-fix the code your self and no more skid
+fix the code your self and no more skid<br>
+"but i dont know bash :sob:"then just dont skid and use the offical builder and use my silly script
