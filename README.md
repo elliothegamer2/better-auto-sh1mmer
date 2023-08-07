@@ -24,6 +24,6 @@
 ## oh but im stupid :(:(:(:(:(:(
 
 "Im on windows i can-"
-use linux dumbass
-"the script no work"
+use linux dumbass<br>
+<br>"the script no work"
 fix the code your self and no more skid
