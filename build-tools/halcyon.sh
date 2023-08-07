@@ -25,7 +25,7 @@ echo -ne '1 \r'
 echo -ne '\n'
 buil="0"
 clear
-
+cd ~/better-auto-sh1mmer
 if [[ $1 == "octopus" ]]; then
     wget https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15117.111.0_octopus_recovery_stable-channel_mp-v31.bin.zip
     unzip chromeos_15117.111.0_octopus_recovery_stable-channel_mp-v31.bin.zip
