@@ -18,15 +18,17 @@ echo "Downloading..."
 
 file="https://dl.osu.bio/api/raw/?path=/"$1".zip"
 
-path="~/auto-sh1mmer-better/build-tools/"$1".bin"
-
-wget $file
-
-echo $path
+path="~/auto-sh1mmer-better/"$1".bin"
+cd ~/better-auto-sh1mmer
 sleep 1
-clear
+wget $file
+if [[ $? -ne 0 ]]; then
+    echo "wget failed"
+else
+    sleep 1
+    clear
 
-unzip index.html?path=%2F$1
-cd
+    unzip index.html?path=%2F$1
+    cd
+fi
 
-echo "now run the build.sh file"
