@@ -10,6 +10,7 @@ setup() {
 clear
 dev="false"
 mod="false"
+funny=$((1 + $RANDOM % 100))
 MenuInd() {
     echo
     echo
@@ -26,7 +27,10 @@ MenuInd() {
     echo
     echo -e "                                                              \033[1;93m+===================================+"
     echo -e "                                                              |                                   |"
-    echo -e "                                                              |     [Shim Building Menu Beta]     |"
+    if [[ $funny == 47 ]]
+    then  echo -e "                                                              |          [Skid Software]          |" 
+    else echo -e "                                                              |     [Shim Building Menu Beta]     |"
+    fi 
     echo -e "                                                              |                                   |"
     if [[ $dev == "false" ]]; then echo -e "                                                              |         \033[1;94mDev Build: \033[1;31m"$dev"\033[1;93m          |"; fi; if [[ $dev == "true " ]]; then echo -e "                                                              |         \033[1;94mDev Build: \033[1;92m"$dev"\033[1;93m          |"; fi
     if [[ $mod == "false" ]]; then echo -e "                                                              |        \033[1;94mModded Build: \033[1;31m"$mod"\033[1;93m        |"; fi; if [[ $mod == "true " ]]; then echo -e "                                                              |        \033[1;94mModded Build: \033[1;92m"$mod"\033[1;93m        |"; fi
