@@ -1,7 +1,16 @@
 # congrates you looked at the source code you may still be a skid
-sudo apt install cgpt
-sudo apt-get unzip
-
+warn() {
+    echo "Make Sure you have these installed"
+    echo "+======================+"
+    echo "|   [Requried Items]   |"
+    echo "|                      |"
+    echo "|        Unzip         |"
+    echo "|        cgpt          |"
+    echo "|                      |"
+    echo "|                      |"
+    echo "+======================+"
+    echo " (Press Ctrl+C to exit)"
+}
 setup() {
     clear
     MenuInd $1
@@ -10,7 +19,7 @@ setup() {
 clear
 dev="false"
 mod="false"
-funny=$((1 + $RANDOM % 100))
+funny=47
 MenuInd() {
     echo
     echo
@@ -41,7 +50,7 @@ MenuInd() {
     echo -e "                                                              |       {Made By Wave Demure}       |"
     echo -e "                                                              |                                   |"
     echo -e "                                                              +===================================+"
-    echo "                                                                           The Board is "$1
+    echo "                                                                                  "$1
 }   
 PromptMenu() {
      echo -e "                                                                          \033[1;96mEdit Options"
@@ -147,4 +156,6 @@ PromptMenu() {
         fi
     fi
 }
+warn
+sleep 10
 setup $1
